@@ -1,0 +1,5 @@
+<form method="post" class="post-form" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{a.as_p}}
+    <button type="submit" class="save btn btn-default">Save</button>
+</form>
